@@ -10,7 +10,7 @@ import SwiftUI
 class Order: ObservableObject, Codable {
     enum CodingKeys: CodingKey {
         case type, quantity, extraFrosting, addSprinkles, name, streetAddress, city, zip
-    }C
+    }
     
     static let types = ["Vanilla", "Strawberry", "Chocolate", "Rainbow"]
     
