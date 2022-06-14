@@ -66,8 +66,6 @@ struct OrderStruct: Codable {
         
         return cost
     }
-    
-    init() { }
 }
 
 //Before Challenge
